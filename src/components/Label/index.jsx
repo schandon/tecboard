@@ -1,6 +1,8 @@
+import './Label.css'
+
 export function Label({children}){
     return (
-    <label>
+    <label className="label-props">
       {children}
     </label>
   )
